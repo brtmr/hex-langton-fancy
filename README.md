@@ -1,4 +1,4 @@
-# hex-langton-custom
+# hex-langton-fancy
 
 Define custom multi-color rules for simulating Langton's Ant on a hexagonal grid.
 
