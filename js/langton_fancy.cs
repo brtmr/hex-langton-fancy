@@ -62,6 +62,7 @@ class LangtonApp
         if @running
             if @ant.j >= @j_max || @ant.j<0 || @ant.i >= @i_max || @ant.i < 0
                 @halt()
+                return
             @canvas.width = @canvas.width
             @draw_board()
             @draw_ant()
